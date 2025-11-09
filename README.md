@@ -1,7 +1,7 @@
 # alien-cursors 🛸
 An animated alien and UFO themed cursor pack for xcursor.
 
-![default](https://github.com/user-attachments/assets/1c73b293-df03-40c2-9ab3-04ea40decdd2)
+![default](https://github.com/user-attachments/assets/2a326cd8-46e5-45af-8b1c-3f06523b6537)
 
 ## How to Install
 Git clone this repository into one of the suitable xcursor directories e.g. _'$HOME/.local/share/icons/'_ or simply _'$HOME/.icons/'_.
