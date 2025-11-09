@@ -4,8 +4,13 @@ An animated alien and UFO themed cursor pack for xcursor.
 ![default](https://github.com/user-attachments/assets/2a326cd8-46e5-45af-8b1c-3f06523b6537)
 
 ## How to Install
-Git clone this repository into one of the suitable xcursor directories e.g. _'$HOME/.local/share/icons/'_ or simply _'$HOME/.icons/'_.
+1. Git clone this repository into one of the suitable xcursor directories e.g.
+<pre>_'$HOME/.local/share/icons/'_</pre>
+or simply
+<pre>_'$HOME/.icons/'_</pre>
 It is strongly recommended that you also git clone into the system-wide directory _'/usr/share/icons/'_ to ensure proper functionality within all of your applications.
+
+2. By default the theme inherits from 'Adwaita'. If you would like it to inherit from a different theme then this must be specified within the _'index.theme'_ file.
 
 ## How to Use
 You may now begin setting your cursor theme in various different contexts e.g.
