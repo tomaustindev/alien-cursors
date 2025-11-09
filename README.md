@@ -1,6 +1,8 @@
 # alien-cursors 🛸
 An animated alien and UFO themed cursor pack for xcursor.
 
+![default](https://github.com/user-attachments/assets/1c73b293-df03-40c2-9ab3-04ea40decdd2)
+
 ## How to Install
 Git clone this repository into one of the suitable xcursor directories e.g. _'$HOME/.local/share/icons/'_ or simply _'$HOME/.icons/'_.
 It is strongly recommended that you also git clone into the system-wide directory _'/usr/share/icons/'_ to ensure proper functionality within all of your applications.
@@ -19,6 +21,7 @@ Inherits=alien-cursors
 </pre>
 
 ## File Structure
+```
 /usr/share/icons/
 ├── alien-cursors
 │   ├── cursors
@@ -26,7 +29,8 @@ Inherits=alien-cursors
 │   │   └── left_ptr -> default
 │   └── index.theme
 └── default
-    └── index.theme
+    └── index.theme
+```
 
 ## Generating Custom Sizes
 The cursors have already been exported to **'PNG'** and converted to the required format, using the **'xcursorgen'** tool. You do not need to do this yourself.
