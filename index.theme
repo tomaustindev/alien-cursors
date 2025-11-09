@@ -1,0 +1,4 @@
+[Icon Theme]
+Name = alien-cursors
+Comment = An alien and UFO themed cursor pack for xcursor.
+Inherits = Adwaita
