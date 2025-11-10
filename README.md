@@ -4,11 +4,10 @@ An animated alien and UFO themed cursor pack for xcursor.
 ![default](https://github.com/user-attachments/assets/2a326cd8-46e5-45af-8b1c-3f06523b6537)
 
 ## How to Install
-Git clone this repository into one of the suitable xcursor directories e.g.
-```$HOME/.local/share/icons/```
-or
-```$HOME/.icons/```
-It is strongly recommended that you also git clone into the system-wide directory to ensure proper functionality within all of your applications:
+Simply run the ```install.sh``` script. This will copy the necessary files over to both local and system directories.
+- local location:
+```$HOME/.local/share/icons/alien-cursors```
+- system-wide location:
 ```/usr/share/icons/```
 
 By default the theme inherits from **'Adwaita'**. If you would like to inherit from a different theme, you must specify within the _'index.theme'_ file.
@@ -43,12 +42,11 @@ The cursors have already been exported to **'PNG'** and converted to the require
 However, the original SVG files have been provided for those that wish to generate their own custom sizes. See within the _'raw'_ folder.
 It is important to note that these are animated cursors and require all of their frames to work!
 
-Here is how one may structure their default.cursor file to generate with a size of 48px, a hotspot of (2px, 0px), and a delay of 50ms per frame.
+Here is how one may structure their ```default.cursor``` file to generate with a size of 32px, a hotspot of (3px, 0px), and a delay of 50ms per frame.
 ```
-48 2 0 default1.png 50
-48 2 0 default2.png 50
-48 2 0 default3.png 50
-48 2 0 default4.png 50
+32 3 0 default1.png 50
+32 3 0 default2.png 50
+32 3 0 default3.png 50
 ```
 
 ## Credits
